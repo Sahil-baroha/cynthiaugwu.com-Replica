@@ -1,4 +1,14 @@
 {
+  
+    "redirects": [
+      { "source": "/", "destination": "/Frontend/01_sheryan_Project_1.html", "permanent": true }
+    ]
+  ,
+  
+    "public": "Frontend"
+  
+,  
+  
     "builds": [
       {
         "src": "Frontend/01_sheryan_Project_1.html",
@@ -11,6 +21,7 @@
         "dest": "Frontend/01_sheryan_Project_1.html"
       }
     ]
+    
   }
   
   
