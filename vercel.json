@@ -1,0 +1,16 @@
+{
+    "builds": [
+      {
+        "src": "frontend/01_sheryan_Project_1.html",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "frontend/01_sheryan_Project_1.html"
+      }
+    ]
+  }
+  
+  
