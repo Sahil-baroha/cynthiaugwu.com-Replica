@@ -1,0 +1,281 @@
+@font-face {
+  font-family: General Sans;
+  src: url("/101_All_Downloads/GeneralSans-Medium.otf");
+  src: url("/101_All_Downloads/GeneralSans-Regular.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "General Sans Regular";
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.bounding{
+  width: fit-content;
+  /* background-color: red; */
+  overflow: hidden;
+}
+.bounding .bonding-elem{
+  transform: translateY(100%);
+}
+#main {
+  background-color: black;
+  width: 100%;
+  height: auto;
+}
+#home {
+  padding-top: 20px;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  width: 100%;
+  padding: 20px 40px;
+}
+#nav a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+#heading {
+  margin-top: 90px;
+}
+#heading h1 {
+  font-family: "General Sans Regular";
+  margin-left: 40px;
+  line-height: 0.85;
+  font-size: 10vw;
+  text-transform: uppercase;
+  opacity: 0.6;
+  font-weight: 900;
+}
+#heading #desi {
+  margin-left: 205px;
+}
+#blockText {
+  width: fit-content;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items:end;
+  /* background-color: red; */
+}
+#blockText h5{
+  font-family: "General Sans Regular";
+  margin-top: 15px;
+  font-size: 1vw;
+  text-align: right !important;
+  /* background-color: red; */
+}
+#secondary_head {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  padding-right: 45px;
+  /* background-color: red; */
+}
+#secondary_head h5 {
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 1vw;
+  margin-top: 10px;
+}
+
+#home-footer {
+  display: flex;
+  width: 100%;
+  position: relative;
+  bottom: 3%;
+  padding: 0 2.7vw;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid white; */
+  top: -15.1px;
+}
+
+#home-footer a {
+  text-transform: uppercase;
+  font-size: 1.1vw;
+  color: white;
+  text-decoration: none;
+}
+#home-footer .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 27px;
+}
+#next-btn {
+  display: flex;
+  gap: 5px;
+}
+.circle i {
+  background-color: white;
+  font-size: 22px;
+  font-weight: 1;
+  color: black;
+  border-radius: 50%;
+}
+
+/* second-page CSS */
+#second-page {
+  padding-right: 10vw;
+  padding-top: 240px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: rgb(243, 243, 243);
+  padding-bottom: 25px;
+}
+.elem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 3.5vw 3vw;
+  border-top: 1px solid rgb(216, 210, 210);
+  /* background-color: black; */
+  padding-right: 0;
+}
+.elem h1 {
+  font-size: 7.5vw;
+  opacity: 0.7;
+}
+.elem h5 {
+  font-size: 1.1vw;
+}
+.elem-last {
+  border-bottom: 1px solid white;
+}
+.elem img {
+  /* position: absolute;
+  z-index: 999;
+  height: 130%;
+  opacity: 0; */
+
+  position: absolute;
+  z-index: 999;
+  height: 130%;
+  opacity: 0;
+   pointer-events: none;/* Prevent image from blocking mouse events */
+  transform: translate(-50%, -50%); 
+}
+
+/* Third-Page CSS Here ----------------->>>>>>>>   */
+
+#third-pg {
+  display: flex;
+  align-items: center;
+  padding: 10vw 10vw;
+  padding-left: 36vw;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  gap: 50px;
+  /* border: 2px solid white; */
+}
+#third-pg img {
+  width: 225px;
+  /* padding: ; */
+}
+#text-about {
+  width: 25rem;
+  /* background-color: red; */
+  color: white;
+}
+#text-about h5 {
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+#text-about p {
+  line-height: 26px;
+  font-size: 1.1rem;
+}
+#text-about a {
+  display: inline-block;
+  color: white;
+  border: 1px solid white;
+  padding: 4px 14px;
+  border-radius: 15px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+/* promo-footer  CSS Here ----------------->>>>>>>>   */
+
+#promo-footer {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  padding-top: 10px;
+  padding-bottom: 7vw;
+}
+#promo-footer h5 {
+  opacity: 0.6;
+}
+#promo-footer h4 {
+  font-size: 0.75rem;
+  margin-top: 10px;
+}
+
+/* promo-footer  CSS Here ----------------->>>>>>>>   */
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 30px 30px;
+}
+#footer-left {
+  display: flex;
+  gap: 20px;
+}
+
+#footer-right { 
+display: flex;
+gap: 20px;
+align-items: center;
+justify-content: space-evenly;
+gap: 20px;
+}
+#footer-right a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  color: white;
+  padding: 7px 17px;
+}
+
+#minicircle{
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.75s;
+  height: 13px;
+  width: 13px;
+  color: white;
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 9999;
+  position: absolute;
+  pointer-events: none;
+  /* display:none; */
+  }
